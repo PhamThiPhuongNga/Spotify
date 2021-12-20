@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Playlist của bạn</title>
+    <!-- cdn boostrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- cdn fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- cdn icon boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!-- cdn gg font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <main class="bg-dark my-main">
+        <div class="main-top p-3 navbar " style="background-color: #515151;">
+
+            <ul class="nav nav-pills d-flex align-items-center ">
+                <i class="fas fa-chevron-circle-left fs-3 ml-5 myIconArrow"><a href="#" target="_blank"
+                        rel="noopener noreferrer"></a></i>
+                <i class="fas fa-chevron-circle-right fs-3 pl-5 myIconArrow"></i>
+
+            </ul>
+
+            <!-- <button class="justify-content-end ">
+                NÂNG CẤP 
+            </button> -->
+            <div class="dropdown myDropdown">
+                <!-- <button > -->
+                <a class="btn btn-dark dropdown-toggle d-flex align-items-center" href="#" role="button"
+                    id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-person-circle fs-4 ">&nbsp;</i> Duy Nguyen
+                </a>
+
+                <ul class="dropdown-menu bg-dark " aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item text-light" href="#">Tài khoản </a></li>
+                    <li><a class="dropdown-item text-light" href="#">Hồ sơ </a></li>
+                    <li><a class="dropdown-item text-light" href="#">Nâng cấp lên Premium </a></li>
+                    <li><a class="dropdown-item text-light" href="#">Đăng xuất </a></li>
+                </ul>
+                <!-- </button> -->
+            </div>
+        </div>
+        <!-- end main-top -->
+        <div class="main-bottom text-light bg-dark">
+            <div class="main-bottom-t">
+                <div class="container  ">
+                    <div class="row ">
+                        <div class="col-3 "><button class="btn-playlist align-items-center bg-dark">
+                                <i class="material-icons my-icon-thuvien text-secondary">add_a_photo</i>
+                                <i class="bi bi-music-note-beamed my-icon-thuvien text-secondary"></i>
+                            </button></div>
+                        <div class="col-9 p-5">
+                            <p>PLAYLIST</p>
+                            <a href="" class="text-decoration-none link-light ">
+                                <h1 style="font-size: 6.0rem;">Playlist của tôi #1</h1>
+                            </a>
+                            <p><a href="" class="text-decoration-none link-light a-cogach"> Duy Nguyễn</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-bottom-c">
+                <a href=""><i class="fas fa-ellipsis-h fs-4 p-3 text-muted my-icon-fa-ellipsis-h"></i></a>
+            </div>
+            <div class="main-bottom-b ">
+                <h4>Hãy cùng tìm nội dung cho danh sách phát của bạn</h4>
+                <div style="display: flex;">
+                    <div class="form_search-nd  p-2">
+
+                        <i class="fa fa-search"></i>
+                        <input type="text"
+                            style=" border: 1px; background-color: #2D2D2D;width: 400px;color: aliceblue;"
+                            placeholder="Tìm bài hát và tập podcast">
+                    </div>
+                    <a href=""><i class="fas fa-times text-secondary fs-2 my-fa-times"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- end main-bottom -->
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
